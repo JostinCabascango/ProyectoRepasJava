@@ -1,7 +1,7 @@
 //classe altres
 public class Altres extends Disposiitu {
- String descripcio = "";
+  String descripcio = "";
+  public Altres(String descripcio) {
+    this.descripcio = descripcio;
+  }
 }
- public Altres(String descripcio) {
-  this.descripcio = descripcio;
- }
