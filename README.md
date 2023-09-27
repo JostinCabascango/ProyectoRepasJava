@@ -1,2 +1,0 @@
-# ProyectoRepasJava
-MProjectesProgramaRepas_ITICBCN
