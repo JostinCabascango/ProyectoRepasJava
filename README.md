@@ -39,8 +39,8 @@ Debes crear una interfaz `GammaAlta` con el método `isGammaAlta` para determina
 
 - [Jostin Cabascango](https://github.com/JostinCabascango)
 - [Joel Ghanem](https://github.com/JoelGhanemITICBCN)
-- [Junhong](https://github.com/JunhongITIBCN)
-- [Markis24](https://github.com/Markis24)
+- [Junhong Zhu](https://github.com/JunhongITIBCN)
+- [Marc Cuzcano](https://github.com/Markis24)
 
 ## Issues
 
