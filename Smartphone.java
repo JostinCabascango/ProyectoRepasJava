@@ -1,7 +1,7 @@
 public class Smartphone extends Dispositiu {
     private String sistema;
-    private boolean accelerometre;
-    private boolean gps;
+    private boolean accelerometre=false;
+    private boolean gps=true;
 
     public Smartphone(String marca, String model, double preuBase, String sistema, boolean accelerometre, boolean gps) {
         super(marca, model, preuBase);
