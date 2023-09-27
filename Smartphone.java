@@ -1,58 +1,22 @@
-public class Smartphone {
-
-    private String marca;
-    private String model;
-    private float preu_base;
-    private String sistema_operatiu;
+public class Smartphone extends Dispositiu {
+    private String sistema;
     private boolean accelerometre;
     private boolean gps;
 
-    Smartphone() {
-
+    public Smartphone(String marca, String model, double preuBase, String sistema, boolean accelerometre, boolean gps) {
+        super(marca, model, preuBase);
+        this.sistema = sistema;
+        this.accelerometre = accelerometre;
+        this.gps = gps;
     }
 
-    // Constructor
-
-
-    public Smartphone(String marca, String model, float preu_base, String sistema_operatiu, boolean accelerometre, boolean gps) {
-        this.marca = marca;
-        this.model = model;
-        this.preu_base = preu_base;
-        this.sistema_operatiu = sistema_operatiu;
-        this.accelerometre = false;
-        this.gps = true;
+    // Getters & Setters
+    public String getSistema() {
+        return sistema;
     }
 
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public float getPreu_base() {
-        return preu_base;
-    }
-
-    public void setPreu_base(float preu_base) {
-        this.preu_base = preu_base;
-    }
-
-    public String getSistema_operatiu() {
-        return sistema_operatiu;
-    }
-
-    public void setSistema_operatiu(String sistema_operatiu) {
-        this.sistema_operatiu = sistema_operatiu;
+    public void setSistema(String sistema) {
+        this.sistema = sistema;
     }
 
     public boolean isAccelerometre() {
@@ -72,7 +36,23 @@ public class Smartphone {
     }
 
     @Override
-    public String toString() {
-        return "Smartphone{" + "marca='" + marca + '\'' + ", model='" + model + '\'' + ", preu_base=" + preu_base + ", sistema_operatiu='" + sistema_operatiu + '\'' + ", accelerometre=" + accelerometre + ", gps=" + gps + '}';
+    public double calcularPreuFinal() {
+        double preuFinal = super.calcularPreuFinal();
+        if (accelerometre) {
+            // Incrementar el preu final si te accelerometre en 10 %
+            preuFinal = preuFinal * 1.1;
+        }
+        if (gps) {
+            // Incrementar el preu final si te GPS en 5 %
+            preuFinal = preuFinal * 1.05;
+        }
+        return preuFinal;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Sistema Operatiu: " + sistema + ", acceleròmetre: " + accelerometre + ", GPS: "
+                + gps;
+    }
+
 }
