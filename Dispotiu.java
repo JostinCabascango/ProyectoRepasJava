@@ -1,7 +1,12 @@
-//Classe smatrtphone
+//Classe Dispositiu
 public class Dispositiu {
-  int preu = 0;
+  float preu = 0;
   String marca = "";
   String model = "";
     
+}
+public Dispositiu (float preu, String marca, String model) {
+  this.preu = preu;
+  this.marca = marca;
+  this.model = model;
 }
