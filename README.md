@@ -41,6 +41,8 @@ Debes crear una interfaz `GammaAlta` con el método `isGammaAlta` para determina
 - [Joel Ghanem](https://github.com/JoelGhanemITICBCN)
 - [Junhong Zhu](https://github.com/JunhongITIBCN)
 - [Marc Cuzcano](https://github.com/Markis24)
+- [Artur](https://github.com/Arturznak)
+
 
 ## Issues
 
