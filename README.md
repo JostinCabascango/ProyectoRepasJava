@@ -34,3 +34,20 @@ El precio final de todos los dispositivos es el doble de su precio base. Sin emb
 ### Ejercicio 3
 
 Debes crear una interfaz `GammaAlta` con el método `isGammaAlta` para determinar si un smartphone o tablet es de gama alta. Un smartphone es de gama alta si su precio final supera los 700€ y un tablet es de gama alta si su precio final supera los 900€. En la clase `Main`, debes mostrar cuáles dispositivos son de gama alta.
+
+## Integrantes del Proyecto
+
+- [Jostin Cabascango](https://github.com/JostinCabascango)
+- [Joel Ghanem](https://github.com/JoelGhanemITICBCN)
+- [Junhong](https://github.com/JunhongITIBCN)
+- [Markis24](https://github.com/Markis24)
+
+## Issues
+
+Puedes seguir el progreso del proyecto y reportar problemas en la sección de [Issues](https://github.com/JostinCabascango/ProyectoRepasJava/issues).
+
+## kanban del Proyecto
+
+Para una vista visual del estado del proyecto, visita nuestro [Tablero](https://github.com/users/JostinCabascango/projects/2).
+
+
