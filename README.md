@@ -44,9 +44,9 @@ Debes crear una interfaz `GammaAlta` con el método `isGammaAlta` para determina
 
 ## Issues
 
-Puedes seguir el progreso del proyecto y reportar problemas en la sección de [Issues](https://github.com/JostinCabascango/ProyectoRepasJava/issues).
+Puedes seguir el progreso del proyecto en la sección de [Issues](https://github.com/JostinCabascango/ProyectoRepasJava/issues).
 
-## kanban del Proyecto
+## Kanban del Proyecto
 
 Para una vista visual del estado del proyecto, visita nuestro [Tablero](https://github.com/users/JostinCabascango/projects/2).
 
