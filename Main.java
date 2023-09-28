@@ -42,7 +42,7 @@ public class Main implements GammaAlta {
 
   }
   private boolean isGammaAlta (float preu) {
-    if(dispositivo.getClass().equals("Smartphone")&& preu > 700){
+    if(dispositivous.getClass().equals("Smartphone")&& preu > 700){
       return true;
     }
     if(dispositivo.getClass().equals("Tablet") && preu > 900){
