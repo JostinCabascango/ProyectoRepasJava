@@ -1,3 +1,0 @@
-# ProyectoRepasJava
-modifico el readme
-MProjectesProgramaRepas_ITICBCN
