@@ -34,20 +34,14 @@ public class Main implements GammaAlta {
       System.out.println(
         "Precio base: " + dispositiu.getPreuBase() + ", Precio final: " + dispositiu.calcularPreuFinal());
     }
-
   }
 
   private static void mostrarDispositiusDeGammaAlta(List<Dispositiu> dispositius) {
     System.out.println("\nDispositius de Gamma Alta:\n");
-
-  }
-  private boolean isGammaAlta (float preu) {
-    if(dispositivous.getClass().equals("Smartphone")&& preu > 700){
-      return true;
+    for (int i = 0; i <= dispositius; i++ ) {
+      if (dispositius[].isGammaAlta()) {
+        System.out.println(dispositius[i]);
+      } 
     }
-    if(dispositivo.getClass().equals("Tablet") && preu > 900){
-      return true;
-    }
-    return false;
   }
 }
